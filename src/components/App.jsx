@@ -25,7 +25,6 @@ export class App extends React.Component {
 
    componentDidUpdate(prevProps, prevState){
     if(prevState.contacts !== this.state.contacts){
-      console.log(this.state.contacts)
     localStorage.setItem("contacts", JSON.stringify(this.state.contacts))
   }
    }

@@ -34,9 +34,9 @@ export class ContactForm extends React.Component {
     }  
     render (){
   
-        return (
-            <form onSubmit ={this.handleSubmitForm} >
-            <label htmlFor={this.idName}>Name
+   return (
+   <form onSubmit ={this.handleSubmitForm} >
+   <label htmlFor={this.idName}>Name
          <Input
       type="text"
       value={this.state.name}
